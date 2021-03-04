@@ -20,6 +20,11 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "@typescript-eslint/no-unused-var":[
+      "error", {
+        "argsIgnorePattern": "_"
+      }
+    ]
     "import/extensions": [
       "error",
       "ignorePackages",
